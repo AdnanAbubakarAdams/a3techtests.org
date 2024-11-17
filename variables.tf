@@ -12,12 +12,12 @@ variable "account_id" {
 }
 
 variable "cloudflare_api_token" {
-  type = string
+  type        = string
   description = "The cloudflare API token"
 }
 
 variable "domain_name" {
   type        = string
   description = "The domain name on Cloudflare"
-  default     = "a3techtests.org"
+  default     = "a3test.org"
 }
