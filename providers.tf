@@ -4,8 +4,8 @@
 terraform {
   required_providers {
     cloudflare = {
-        source = "cloudflare/cloudflare"
-        version = "~> 4.0"
+      source  = "cloudflare/cloudflare"
+      version = "~> 4.0"
     }
   }
 }
@@ -13,5 +13,5 @@ terraform {
 ############ Provider Token ############
 ########################################
 provider "cloudflare" {
-#   api_token = ""
+  #   api_token = ""
 }

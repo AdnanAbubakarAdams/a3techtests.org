@@ -2,19 +2,19 @@
 ############ storing Variables ##########
 #########################################
 variable "zone_id" {
-  type = string
+  type        = string
   description = "The zone ID for Cloudflare"
-#   default = ""
+  #   default = ""
 }
 
 variable "account_id" {
-  type = string
+  type        = string
   description = "The accout ID for Cloudflare"
-#   default = ""
+  #   default = ""
 }
 
 variable "domain_name" {
-    type = string
-    description = "The domain name on Cloudflare"
-    default = "a3techtests.org"
+  type        = string
+  description = "The domain name on Cloudflare"
+  default     = "a3techtests.org"
 }
