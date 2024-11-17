@@ -13,5 +13,5 @@ terraform {
 ############ Provider Token ############
 ########################################
 provider "cloudflare" {
-  #   api_token = ""
+    api_token = var.api_token
 }

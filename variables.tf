@@ -8,7 +8,12 @@ variable "zone_id" {
 
 variable "account_id" {
   type        = string
-  description = "The accout ID for Cloudflare"
+  description = "The account ID for Cloudflare"
+}
+
+variable "api_token" {
+  type = string
+  description = "The cloudflare API token"
 }
 
 variable "domain_name" {
